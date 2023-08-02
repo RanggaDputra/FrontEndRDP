@@ -1,0 +1,76 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    /* background-color: red; */
+}
+.navbar{
+/* background-color: blue; */
+
+}
+.navbar-text{
+    /* background-color: red; */
+    padding-top:10px; 
+  
+}
+.navbar-text::before{
+    content: 'a';
+    color: transparent;
+    padding-top: 10px;
+    width: 5px;
+    height: 40px;
+    background-color: yellow;
+    display: inline-block;
+    /* transform: translateY(50px); */
+}
+.navbar-text i span{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.navbar-text i{
+    margin-left: 10px;
+}
+.nav2{
+    width: 600px;
+}
+.nav2 input.form-control{
+    width: 320px;
+}
+.nav2 button.bttn{
+    width: 150px;
+}
+.content{
+    width:1125px;
+    height: 1200px;
+    /* background-color: blue; */
+
+}
+.box{
+    width: 20px;
+    height: 500px;
+    background-color: yellow;
+    float: right;
+    position: relative;
+
+}
+.footer{
+    margin-left: 0;
+    width:1130px;
+    height: 300px;
+    background-color: yellow;
+}
+.ft1{
+    margin-top: 120px;
+}
+.ft1 a{
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+}
+.icon{
+    margin: 10px;
+}
+.icon i span{
+    margin-left: 10px;
+}
